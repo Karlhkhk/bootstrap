@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -6,25 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" >
-  <style>
-.jumbo{
-background-image: url("https://picsum.photos/id/684/2200/400");
-background-size: cover;
-}
-.card-img-top {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+      .jumbo {
+        background-image: url("https://picsum.photos/id/684/2200/400");
+        background-size: cover;
+      }
+      .card-img-top {
         width: 100%;
         height: 15vw;
         object-fit: cover;
-    }
-
-  </style>
-</head>
- <div class="container">
-    <!-- Menü -->
-    <nav class="navbar bg-dark navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
-        <nav class="navbar bg-primary" data-bs-theme="dark">
-        </nav>
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Menü -->
+      <nav class="navbar bg-dark navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
         <div class="container">
           <a class="navbar-brand" href="#"><i class="fa-brands fa-facebook"></i> Kold</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,27 +51,20 @@ background-size: cover;
               </li>
             </ul>
             <form class="d-flex" role="search">
-              
               <button class="btn btn-success" type="submit"><i class="fa-brands fa-facebook"></i> Search</button>
             </form>
           </div>
         </div>
-      </div>
-
       </nav>
 
-
-
-
-    <!-- jumbo -->
-    <div class="p-5 mb-4 bg-body-tertiary rounded-3 text-center jumbo text-light">
-       
+      <!-- jumbo -->
+      <div class="p-5 mb-4 bg-body-tertiary rounded-3 text-center jumbo text-light">
         <div class="container-fluid py-5">
-
-            <h1 class="display-5 fw-bold">Jumbotron</h1>
+          <h1 class="display-5 fw-bold">Jumbotron</h1>
           <p class="fs-4">Check out the examples below for how you can remix and restyle it to your liking.</p>
         </div>
       </div>
+
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card h-100">
@@ -82,8 +72,8 @@ background-size: cover;
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <span class="badge text-bg-primary">Primary</span>
-                <span class="badge text-bg-secondary">Secondary</span>
-            <span class="badge text-bg-success">Success</span>
+              <span class="badge text-bg-secondary">Secondary</span>
+              <span class="badge text-bg-success">Success</span>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <i class="fa-brands fa-facebook"></i>
               <i class="fa-brands fa-threads"></i>
@@ -97,8 +87,8 @@ background-size: cover;
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <span class="badge text-bg-primary">Primary</span>
-            <span class="badge text-bg-secondary">Secondary</span>
-            <span class="badge text-bg-success">Success</span>
+              <span class="badge text-bg-secondary">Secondary</span>
+              <span class="badge text-bg-success">Success</span>
               <p class="card-text">This is a short card.</p>
               <i class="fa-brands fa-facebook"></i>
               <i class="fa-brands fa-threads"></i>
@@ -108,13 +98,13 @@ background-size: cover;
         </div>
         <div class="col">
           <div class="card h-100">
-            <iframe class="card-img-top"  src="https://www.youtube.com/embed/6jgrBSlBwwk?si=W0SYciqUzYoUMvr6" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="card-img-top" src="https://www.youtube.com/embed/6jgrBSlBwwk?si=W0SYciqUzYoUMvr6" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <div class="card-body">
-              <h5 class="Card title">Eesti Vabariigi 21. aastapäev (1939) Taastatud</h5>
+              <h5 class="card-title">Eesti Vabariigi 21. aastapäev (1939) Taastatud</h5>
               <span class="badge text-bg-primary">Primary</span>
-            <span class="badge text-bg-secondary">Kaitsevägi</span>
-            <span class="badge text-bg-success">Eesti</span>
-              <p class="card-text">Eesti Vabariigi 21. aastapäevale pühendatud paraad Tallinnas Vabaduse väljakul 24.02.1939.            </p>
+              <span class="badge text-bg-secondary">Kaitsevägi</span>
+              <span class="badge text-bg-success">Eesti</span>
+              <p class="card-text">Eesti Vabariigi 21. aastapäevale pühendatud paraad Tallinnas Vabaduse väljakul 24.02.1939.</p>
               <i class="fa-brands fa-facebook"></i>
               <i class="fa-brands fa-threads"></i>
               <i class="fa-brands fa-square-instagram"></i>
@@ -122,8 +112,8 @@ background-size: cover;
           </div>
         </div>
       </div>
- 
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </div>
 
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
 </html>
